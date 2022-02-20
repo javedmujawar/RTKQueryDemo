@@ -14,7 +14,7 @@ function StateList(props) {
       {error ? (
         <div className="error">Oh no, there was an error</div>
       ) : isLoading ?( 
-        <div className="loader">Loding state list....</ div> )
+        <div className="loader">Loading state list....</ div> )
        : data ? (
         <div className="mainContainer">
          <div className="stateContainer">
