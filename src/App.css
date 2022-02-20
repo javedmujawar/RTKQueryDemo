@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.mainContainer {
+  display: inline-flex;
+  float: left;
+}
+.stateContainer{
+  width:350px;
+}
+.listItem{
+  background:#ccc;
+      padding: 5px;
+      margin-top:5px;
+
+}
+.cityContainer{
+  margin-left: 10px;
+  width:350px;
+}
+.selectedState{
+font-size: 25px;
+background-color: #ccc;
+color: red;
+}
+.selectedStateName{
+  color: forestgreen;
+}
+.cities {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cities td, .cities th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  
+}
+
+.cities tr:nth-child(even){background-color: #f2f2f2;}
+
+.cities tr:hover {background-color: #ddd;}
+
+.cities th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* text-align: left; */
+  background-color: #04AA6D;
+  color: white;
+}
+.loader{
+  font-size: 25px;
+  color: green;
+}
+.error{
+  font-size: 25px;
+  color: red;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
